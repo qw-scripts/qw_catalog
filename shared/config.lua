@@ -2,7 +2,8 @@ Config = {}
 
 Config.Interaction = {
     coords = vector4(131.15013122559, -3007.2495117188, 7.0408930778503, 3.0149056911469),
-    prop = "v_corp_bk_lfltstand"
+    prop = "v_corp_bk_lfltstand",
+    MinusOne = true
 }
 
 Config.VehicleSpawn = vector4(978.71942138672, -3002.0090332031, -40.192642211914, 90.059883117676)
