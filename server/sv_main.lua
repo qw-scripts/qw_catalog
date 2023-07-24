@@ -50,10 +50,3 @@ lib.callback.register('catalog:handleChange', function(source, currentId, direct
         return getVehicleData(prevVeh.model, prevVeh.class, prevId)
     end
 end)
-
-lib.addCommand('catalog:open', {
-    help = 'test the catalog',
-    restricted = false,
-}, function(source)
-    TriggerClientEvent('catalog:triggeredCommand', source)
-end)
