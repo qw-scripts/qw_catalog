@@ -5,7 +5,7 @@ local function createInteraction()
     local coords = Config.Interaction.coords
     local heading = coords.w
     lib.requestModel(model)
-    local obj = CreateObjectNoOffset(model, coords.x, coords.y, coords.z, false, true, true)
+    local obj = CreateObjectNoOffset(model, coords.x, coords.y, coords.z - Config.Interaction.MinusOne and 1.0 or 0.0, false, true, true)
     SetEntityHeading(obj, heading)
     PlaceObjectOnGroundProperly(obj)
     FreezeEntityPosition(obj, true)
