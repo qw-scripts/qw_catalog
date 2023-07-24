@@ -17,7 +17,7 @@ Config.Vehicles = {
     {
         model = 'dominator7', -- VEHICLE MODEL NAME
         inStock = true,       -- IS THE VEHICLE IN STOCK, IF NOT IT WONT SHOW IN THE CATALOG
-        class = 'S',          -- NEED TO GET AN EXPORT FROM CLASSIC FOR THIS
+        class = 'S',          
         props = {}            -- VEHICLE PROPS, IF YOU WANT TO ADD ANY
     },
     {
